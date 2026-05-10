@@ -1,0 +1,36 @@
+# Xcode
+build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+.swiftpm/
+
+# CocoaPods / Carthage (not used here, but harmless)
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Editors
+*.swp
+.vscode/
+.idea/
+
+# Build artifacts (binary releases live as GitHub release assets)
+*.app
+*.dSYM
+*.dSYM.zip
+*.zip
